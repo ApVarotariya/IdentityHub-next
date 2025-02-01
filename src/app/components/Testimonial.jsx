@@ -101,7 +101,7 @@ const TestimonialSlider = () => {
             {testimonials.map((testimonial, index) => (
               <SwiperSlide
                 key={index}
-                className={`p-[15px] md:p-[24px] pb-[70px] w-full flex rounded-[20px]   
+                className={`p-[15px] md:p-[24px] pb-[70px] md:pb-[70px] w-full flex rounded-[20px]   
                   backdrop-blur-[16px]`}
                 style={{
                   boxShadow:

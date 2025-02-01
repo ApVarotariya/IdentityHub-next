@@ -113,7 +113,7 @@ const WhyChooseSection = () => {
                 "linear-gradient(80.42deg, rgba(0, 0, 0, 0.16) 25.25%, rgba(83, 84, 108, 0.16) 98.05%)",
             }}
           >
-            <div className="w-full md:w-[calc(50%-50px)] flex flex-col pl-[50px] md:pl-[60px] relative">
+            <div className="w-full md:w-[calc(50%-25px)] lg:w-[calc(50%-50px)] flex flex-col pl-[50px] md:pl-[60px] relative">
               <div className="absolute top-0 left-0 w-[40px] h-full rounded-[50%]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +171,7 @@ const WhyChooseSection = () => {
                 ))}
               </ul>
             </div>
-            <div className="w-[calc(50%-50px)]">
+            <div className="w-full md:w-[calc(50%-25px)] lg:w-[calc(50%-50px)]">
               <Image
                 src={item.image}
                 alt={item.title}
