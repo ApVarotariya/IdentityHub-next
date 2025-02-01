@@ -209,3 +209,19 @@ nav {
     gap: 10px;
   }
 }
+@media (max-width: 400px) {
+  .hero_center_main div .hero_arround_item h5,
+  .hero_center_main div .hero_arround_item p {
+    font-size: 11px !important;
+  }
+  .hero_center_main div .hero_arround_item img {
+    width: 25px !important;
+  }
+  .hero_center_main div .hero_arround_item:first-child,
+  .hero_center_main div .hero_arround_item:nth-child(2),
+  .hero_center_main div .hero_arround_item:nth-child(3),
+  .hero_center_main div .hero_arround_item:nth-child(4) {
+    padding: 7px !important;
+    width: calc(50% - 5px) !important;
+  }
+}
